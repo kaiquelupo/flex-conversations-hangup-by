@@ -1,6 +1,8 @@
-# Your custom Twilio Flex Plugin
+# Flex Insights Conversation with Hang Up By Information 
 
-Twilio Flex Plugins allow you to customize the appearance and behavior of [Twilio Flex](https://www.twilio.com/flex). If you want to learn more about the capabilities and how to use the API, check out our [Flex documentation](https://www.twilio.com/docs/flex).
+This plugin is adding to Flex the ability of identifying who hang up the call and send it to Flex Insights. 
+
+**Note:** This plugin is based on Miro Botur work. 
 
 ## Setup
 
@@ -39,7 +41,7 @@ When you are ready to deploy your plugin, in your terminal run:
 npm run deploy
 ```
 
-This will publish your plugin as a Private Asset that is accessible by the Functions & Assets API. If you want to deploy your plugin as a Public Asset, you may pass --public to your deploy command:
+This will publish your plugin as a Private Asset that is accessible by the Functions & Assets API. If you want to deploy your plugin as a Public Asset, you may pass --public to your dseploy command:
 
 ```bash
 npm run deploy --public
