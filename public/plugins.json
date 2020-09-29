@@ -1,0 +1,13 @@
+[
+  {
+    "name": "plugin-conversations_hangup_by",
+    "version": "0.0.0",
+    "class": "ConversationsHangupByPlugin",
+    "requires": [
+      {
+        "@twilio/flex-ui": "^1"
+      }
+    ],
+    "src": "http://localhost:3000/plugin-conversations_hangup_by.js"
+  }
+]
